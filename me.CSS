@@ -1,3 +1,27 @@
 Body {
 	background: #FF69B4;
 } 
+H1  {text-align:center; 
+} 
+H2 {text-align:center; 
+} 
+H1 { 
+	font-family: 'Concert One', sans-serif; 
+	color: #FFFFFF;
+}
+H2 {
+	font-family: 'Parisienne', sans-serif;
+  color:#FFFFFF ;
+}
+#bio {
+	font-family: 'Dongle', sans-serif;
+	color:#FFFFFF ; 
+	font-size: 22px;
+}
+#title  {
+
+	font-family: 'Concert One', sans-serif;
+	color:#FFFFFF ; 
+	font-size: 30px;
+text-align: center;
+}
