@@ -19,7 +19,7 @@ var greeting;
 var element = document.getElementById("intro");
 
 var button = document.querySelector("button");
-button.addEventListener("Click", presstoLearnMore);
+button.addEventListener("Hover", presstoLearnMore);
 
 element.insertAdjacentHTML ("afterbegin", "<h1>" + greeting + "<h1>")
 
