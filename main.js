@@ -1,37 +1,37 @@
-window.onload = function ()
-var greeting;
-var element = document.getElementById("intro");
+window.onload = function () {
+//var greeting;
+//var element = document.getElementById("intro");
 
 var button = document.querySelector("button");
-button.addEventListener("Click", addText);
+button.addEventListener("click", addText);
 
-element.insertAdjacentHTML ("afterbegin", "<h1>" + greeting + "<h1>")
+//element.insertAdjacentHTML ("afterbegin", "<h1>" + greeting + "<h1>")
 
-function addText (){
-	var TextField = document.getElementById("textField");
-	var msg = "<h1>This text was added! <h1>";
+function addText(){
+	var textField = document.getElementById("textfield");
+	var msg = "<h1> This text was added! <h1>";
 	textField.innerHTML =msg;
 
 }
 
-window.onload = function ()
+
 var greeting;
 var element = document.getElementById("intro");
 
 var button = document.querySelector("button");
-button.addEventListener("Hover", presstoLearnMore);
+button.addEventListener("Hover", addText);
 
-element.insertAdjacentHTML ("afterbegin", "<h1>" + greeting + "<h1>")
+//element.insertAdjacentHTML ("afterbegin", "<h1>" + greeting + "<h1>")
 
 function addText (){
-	var TextField = document.getElementById("textField");
+	var textField = document.getElementById("textfield");
 	var msg = "<h1> I also like to watch Tiktok and read! <h1>";
 	textField.innerHTML =msg;
 
 }
 
 
-
+/**
 
 var dayofWeek = prompt("What is today?");
 
@@ -119,7 +119,7 @@ console.log ("Student " + student);
 
 roster.push("Varun");
 console.log(roster);
-*/
+
 
 var today = new Date ();
 var hourNow = today.getHours();
@@ -148,3 +148,5 @@ var Shoes = {
 
 
 document.write ('<h1>' + greeting + '<h1>' )
+*/
+}
